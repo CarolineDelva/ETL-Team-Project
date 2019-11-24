@@ -12,21 +12,22 @@ I completed this project during my time at the [Columbia Engineering Data Analyt
 In this project, the data was collected from Kaggle, UK Office for National Statistics and US Census Bureau as CSVs, cleaned and loaded it to Postgres. 
 
 ### EXTRACT
-The data was pulled from UK Office for National Statistics and US Census Bureau in CSV files.
+The data was pulled from UK Office for National Statistics and US Census Bureau as CSV files.
 
 ### TRANSFORM: 
-Cleaning UK Girls & Boys DataSets
+##### Cleaning UK Girls & Boys DataSets
 -Imported the data sets as CSV
 - Created a dataframe
-- To get rid of empty columns, selected the columns that we were interested in by making a copy of the dataframe and calling the columns 
+- To get rid of empty columns, selected the desired columns by making a copy of the dataframe and calling the columns 
 - Used lower case titles in order to match the Postgres tables by using a .rename function  
 -Set ‘rank’ as an index to remove Pandas automatic index to avoid Postgres index conflict
 - To turn the ‘count’ column into integers, used str.replace to get rid of commas within the numerical values 
-- Use a pd.numeric to turn the ‘count’ column  strings into integers
--Used .loc to get locate duplicate values in the rank column  such a  rank 68 
+- Used a pd.numeric function to turn the ‘count’ column  strings into integers
+- Used .loc function to locate duplicate values in the rank column  such a  rank 68 
 -Repeated the same exercise for all of UK girls dataset except rank 88 was listed twice
-     2. Cleaning US Girls & Boys DataSets
--Imported data sets as CSV\
+
+##### Cleaning US Girls & Boys DataSets
+-Imported data sets as CSV
 - Created a dataframe
 -Dropped any blank cells using dropna
 - Used lower case titles in order to match the Postgres tables by using a .rename function. 
