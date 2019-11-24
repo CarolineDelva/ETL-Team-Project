@@ -11,11 +11,10 @@ I completed this project during my time at the [Columbia Engineering Data Analyt
 ## Project Description
 In this project, the data was collected from Kaggle, UK Office for National Statistics and US Census Bureau as CSVs, cleaned and loaded it to Postgres. 
 
-Our hope is to compare and contrast baby name popularity by gender and comparing across the US and UK. We will also look at how baby names trend over time. 
+### EXTRACT
+The data was pulled from UK Office for National Statistics and US Census Bureau in CSV files.
 
-EXTRACT
-We pulled data from UK Office for National Statistics and US Census Bureau in CSV files.
-TRANSFORM: 
+### TRANSFORM: 
 Cleaning UK Girls & Boys DataSets
 -Imported the data sets as CSV
 - Created a dataframe
@@ -33,31 +32,16 @@ Cleaning UK Girls & Boys DataSets
 - Used lower case titles in order to match the Postgres tables by using a .rename function. 
 -Set ‘rank’ as an index to remove Pandas automatic index to avoid Postgres index conflict
 -Repeated the same exercise for all US girls data sets
-LOAD:
+
+### LOAD:
 We chose to use Postgres as it is a relational database and given our data was in tables consisting of rows & columns, it was the best way to handle the data. 
 
 
- is to create a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. The script should make API request from the [OpenWeatherMap API](https://openweathermap.org/api) to collect the data and create scatter plots to showcase the following relationships: 
 
-* Temperature (F) vs. Latitude
-* Humidity (%) vs. Latitude
-* Cloudiness (%) vs. Latitude
-* Wind Speed (mph) vs. Latitude
-
-Final notebook includes:
-
-* Randomly selected 613 cities based on latitude and longitude.
-* A weather check on each of the cities using a series of successive API calls.
-* A print log of each city as they are being processed with the city number and the city name.
-* A CSV of the data retrieved and images for each scatter plot.
-
-## Methods Used
-* API Requests 
-* Data Analysis 
-* Data Visualization
 
 ## Technologies
-* Python (Pandas, Matplotlib, Numpy, Requests, Time, Jupyter Notebook)
+* Python (Pandas, Matplotlib, SqLAlchemy, Jupyter Notebook)
+* SQL (Postgres)
 
 
 ## Output 
