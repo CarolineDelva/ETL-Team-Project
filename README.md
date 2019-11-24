@@ -11,6 +11,10 @@ I completed this project during my time at the [Columbia Engineering Data Analyt
 ## Project Description
 In this project, the data was collected from Kaggle, UK Office for National Statistics and US Census Bureau as CSVs, cleaned and loaded it to Postgres. 
 
+## Partner 
+
+Ashley Peterson 
+
 ### EXTRACT
 The data was pulled from UK Office for National Statistics and US Census Bureau as CSV files.
 
@@ -56,8 +60,6 @@ Postgres was used as it is a relational database. Given the fact that the data w
 
 ## Output 
 
-##### Extract
-
 ##### Data Engineering 
 * UK_Boys_Names [rank - name - count]
 
@@ -72,46 +74,18 @@ Postgres was used as it is a relational database. Given the fact that the data w
 
 
 
-
-
-
-####  * Visit the final notebook: [WeatherPy (API)](https://github.com/CarolineDelva/WeatherPy-APIPython-Project/blob/master/starter_code/WeatherPy.ipynb) 
-
-#### * Data Collection
-
-![Equator](Images/datacollection.PNG)
-#### * Temperature (F) vs. Latitude
-
-![Equator](Images/citylatitudemaxtemp.PNG)
-#### * Humidity (%) vs. Latitude
-
-![Equator](Images/citylatitudehumidity.PNG)
-
-#### * Cloudiness (%) vs. Latitude
-
-![Equator](Images/citylatitudecloudiness.PNG)
-
-#### * Wind Speed (mph) vs. Latitude
-
-![Equator](Images/citylatitudewindspeed.PNG)
-
-
 ## Get Started
 
 
 1. Clone this repository (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Collect the data from  [OpenWeatherMap API](https://openweathermap.org/api).
+2. Find the CSVs from  the [datasets](https://github.com/CarolineDelva/ETL-Team-Project/tree/master/datasets) folder.
 
 3. Find the Python scripts in the [starter_code](https://github.com/CarolineDelva/WeatherPy-APIPython-Project/blob/master/starter_code/WeatherPy.ipynb) folder.
 
-4. Run the script for each model in their own [Jupyter Notebook](https://jupyter.org/).
+4. Find the script to create tables as [query.sql](https://github.com/CarolineDelva/ETL-Team-Project/blob/master/query.sql).
+5. Find the ETL script in the [Analysis](https://github.com/CarolineDelva/ETL-Team-Project/tree/master/Analysis) folder.
+6. Run the script for each model in their own [Jupyter Notebook](https://jupyter.org/).
 
-
-## Conclusion 
-
-* As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth.
-* There is no strong relationship between latitude and cloudiness. However, it is interesting to see that a strong band of cities sits at 0, 80, and 100% cloudiness.
-* There is no strong relationship between latitude and wind speed. However, in northern hemispheres there is a flurry of cities with over 20 mph of wind.
 
 
 ## Contact
