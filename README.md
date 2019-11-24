@@ -9,9 +9,7 @@ I completed this project during my time at the [Columbia Engineering Data Analyt
 
 
 ## Project Description
-
-The purpose of this project
-from Kaggle, UK Office for National Statistics and US Census Bureau. We will be extracting data from CSVs, cleaning it up and using Postgres. 
+In this project, the data was collected from Kaggle, UK Office for National Statistics and US Census Bureau as CSVs, cleaning it up and loading it to Postgres. 
 
 Our hope is to compare and contrast baby name popularity by gender and comparing across the US and UK. We will also look at how baby names trend over time. 
 
