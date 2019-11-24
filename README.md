@@ -81,11 +81,9 @@ Ashley Peterson
 1. Clone this repository (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
 2. Find the CSVs from  the [datasets](https://github.com/CarolineDelva/ETL-Team-Project/tree/master/datasets) folder.
 
-3. Find the Python scripts in the [starter_code](https://github.com/CarolineDelva/WeatherPy-APIPython-Project/blob/master/starter_code/WeatherPy.ipynb) folder.
-
-4. Find the script to create tables as [query.sql](https://github.com/CarolineDelva/ETL-Team-Project/blob/master/query.sql).
-5. Find the ETL script in the [Analysis](https://github.com/CarolineDelva/ETL-Team-Project/tree/master/Analysis) folder.
-6. Run the script for each model in their own [Jupyter Notebook](https://jupyter.org/).
+3. Find the script to create tables as [query.sql](https://github.com/CarolineDelva/ETL-Team-Project/blob/master/query.sql).
+4. Find the ETL script in the [Analysis](https://github.com/CarolineDelva/ETL-Team-Project/tree/master/Analysis) folder.
+5. Run the script for each model in their own [Jupyter Notebook](https://jupyter.org/).
 
 
 
