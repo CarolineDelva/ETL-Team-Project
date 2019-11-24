@@ -16,7 +16,7 @@ The data was pulled from UK Office for National Statistics and US Census Bureau 
 
 ### TRANSFORM: 
 ##### Cleaning UK Girls & Boys DataSets
--Imported the data sets as CSV
+- Imported the data sets as CSV
 - Created a dataframe
 - To get rid of empty columns, selected the desired columns by making a copy of the dataframe and calling the columns 
 - Used lower case titles in order to match the Postgres tables by using a .rename function  
@@ -36,7 +36,7 @@ The data was pulled from UK Office for National Statistics and US Census Bureau 
 
 ### LOAD:
 
-Postgres was used as it is a relational database and given our data was in tables consisting of rows & columns, it was the best way to handle the data. 
+Postgres was used as it is a relational database. Given the fact that the data was in tables consisting of rows & columns, it was the best way to handle the data. 
 
 
 
@@ -49,6 +49,7 @@ Postgres was used as it is a relational database and given our data was in table
 ## Methods Used
 * ETL
 * Data Cleaning
+* Database
 
 
 
