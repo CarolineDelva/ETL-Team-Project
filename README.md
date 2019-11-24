@@ -56,6 +56,25 @@ Postgres was used as it is a relational database. Given the fact that the data w
 
 ## Output 
 
+##### Extract
+
+##### Data Engineering 
+* UK_Boys_Names [rank - name - count]
+
+![Baby Names](Pictures/ukboysnames.PNG)
+* UK_Girls_Names [rank - name - count]
+
+![Baby Names](Pictures/ukgirlsnames.PNG)
+* US_Boys_Names [rank - name - number]
+![Baby Names](Pictures/usboysnames.PNG)
+* US_Girls_Names [rank - name - number]
+![Baby Names](Pictures/ukgirlsnames.PNG)
+
+
+
+
+
+
 ####  * Visit the final notebook: [WeatherPy (API)](https://github.com/CarolineDelva/WeatherPy-APIPython-Project/blob/master/starter_code/WeatherPy.ipynb) 
 
 #### * Data Collection
