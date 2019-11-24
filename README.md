@@ -46,6 +46,13 @@ Postgres was used as it is a relational database and given our data was in table
 * SQL (Postgres)
 
 
+## Methods Used
+* ETL
+* Data Cleaning
+
+
+
+
 ## Output 
 
 ####  * Visit the final notebook: [WeatherPy (API)](https://github.com/CarolineDelva/WeatherPy-APIPython-Project/blob/master/starter_code/WeatherPy.ipynb) 
