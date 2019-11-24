@@ -11,9 +11,7 @@ I completed this project during my time at the [Columbia Engineering Data Analyt
 ## Project Description
 In this project, the data was collected from Kaggle, UK Office for National Statistics and US Census Bureau as CSVs, cleaned and loaded it to Postgres. 
 
-## Partner 
 
-Ashley Peterson 
 
 ### EXTRACT
 The data was pulled from UK Office for National Statistics and US Census Bureau as CSV files.
@@ -42,6 +40,9 @@ The data was pulled from UK Office for National Statistics and US Census Bureau 
 
 Postgres was used as it is a relational database. Given the fact that the data was in tables consisting of rows & columns, it was the best way to handle the data. 
 
+## Partner 
+
+Ashley Peterson 
 
 
 
